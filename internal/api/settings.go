@@ -7,6 +7,7 @@ type ProviderSettings struct {
 	Azure        bool `json:"azure"`
 	Bitbucket    bool `json:"bitbucket"`
 	Discord      bool `json:"discord"`
+	Descope      bool `json:"descope"`
 	Facebook     bool `json:"facebook"`
 	Figma        bool `json:"figma"`
 	Fly          bool `json:"fly"`

@@ -528,6 +528,8 @@ func (a *API) Provider(ctx context.Context, name string, scopes string) (provide
 		return provider.NewBitbucketProvider(config.External.Bitbucket)
 	case "discord":
 		return provider.NewDiscordProvider(config.External.Discord, scopes)
+	case "descope":
+		return provider.NewDescopeProvider(config.External.Descope, scopes)
 	case "facebook":
 		return provider.NewFacebookProvider(config.External.Facebook, scopes)
 	case "figma":
